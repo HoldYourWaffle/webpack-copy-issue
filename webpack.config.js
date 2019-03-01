@@ -1,13 +1,8 @@
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 
-module.exports = [
-{
-	entry: {
-		primary: './src/index.js',
-		secondary: './src/secondary.js'
-	},
-	name: 'main',
+module.exports = {
+	entry: './src/index.js',
 	
 	output: {
 		filename: '[name].js',
@@ -17,7 +12,8 @@ module.exports = [
 	plugins: [
 		new CopyPlugin([
 			{ from: 'src/assets', to: 'assets' },
+			{ from: 'src/static/**/*.ejs', to: 'assets' },
+			{ from: 'src/direct-copy.ejs', to: 'assets' },
 		], { copyUnmodified: true })
 	]
 }
-]

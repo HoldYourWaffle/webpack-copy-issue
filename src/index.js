@@ -1,3 +1,1 @@
-const json = require('./assets/amazing-file.json')
-
-console.log(json);
+sdfsdfconsole.log('Hello World');
