@@ -3,19 +3,11 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = [
 {
-	entry: './src/secondary.js',
-	name: 'first',
-	
-	output: {
-		filename: '[name].js',
-		path: path.resolve(__dirname, 'dist')
+	entry: {
+		primary: './src/index.js',
+		secondary: './src/secondary.js'
 	},
-
-	plugins: []
-},
-{
-	entry: './src/index.js',
-	name: 'second',
+	name: 'main',
 	
 	output: {
 		filename: '[name].js',
