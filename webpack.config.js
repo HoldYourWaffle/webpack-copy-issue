@@ -3,6 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	entry: './src/index.js',
+	mode: 'development',
 	
 	output: {
 		filename: '[name].js',
@@ -14,6 +15,6 @@ module.exports = {
 			{ from: 'src/assets', to: 'assets' },
 			{ from: 'src/static/**/*.ejs', to: 'assets' },
 			{ from: 'src/direct-copy.ejs', to: 'assets' },
-		], { copyUnmodified: true })
+		], { logLevel: 'trace' })
 	]
 }

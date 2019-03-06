@@ -1,0 +1,131 @@
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/assets' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/assets' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/static/**/*.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/static/**/*.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/direct-copy.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/direct-copy.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' is a directory
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/**/*' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' is a file
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' should write to 'assets/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs' should write to 'assets/amazing-file.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs' should write to 'assets/src/static/glob-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'assets/direct-copy.ejs' for tracking content changes
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: writing 'assets/direct-copy.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'assets/amazing-file.ejs' for tracking content changes
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: writing 'assets/amazing-file.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'assets/src/static/glob-copy.ejs' for tracking content changes
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: writing 'assets/src/static/glob-copy.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting after-emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing after-emit
+Hash: b6d6ada08f9181900a75
+Version: webpack 4.29.6
+Time: 104ms
+Built at: 2019-03-06 21:10:22
+                          Asset      Size  Chunks             Chunk Names
+        assets/amazing-file.ejs  60 bytes          [emitted]  
+         assets/direct-copy.ejs  67 bytes          [emitted]  
+assets/src/static/glob-copy.ejs  63 bytes          [emitted]  
+                        main.js   3.8 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/index.js] 27 bytes {main} [built]
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/assets' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/assets' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/static/**/*.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/static/**/*.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/direct-copy.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/direct-copy.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' is a directory
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/**/*' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' is a file
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' should write to 'assets/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/direct-copy.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs' should write to 'assets/src/static/glob-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/src/static/glob-copy.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs' should write to 'assets/amazing-file.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/amazing-file.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting after-emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing after-emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/assets' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/assets' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/static/**/*.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/static/**/*.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: processing from: 'src/direct-copy.ejs' to: 'assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'src/direct-copy.ejs' to be read from 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to determinate 'fromType'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' is a directory
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/**/*' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' is a glob
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/**/*.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: determined 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' is a file
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: begin globbing 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' with a context of 'D:/VOLATILE/workspace-2/webpack-copy-issue/src'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' should write to 'assets/direct-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/direct-copy.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs' should write to 'assets/amazing-file.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/amazing-file.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: found D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs' should write to 'assets/src/static/glob-copy.ejs'
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: getting stats for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: reading 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to write to assets
+[34mi[39m [90m｢copy-webpack-plugin｣[39m: skipping 'assets/src/static/glob-copy.ejs', because content hasn't changed
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: starting after-emit
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: adding 'D:/VOLATILE/workspace-2/webpack-copy-issue' to change tracking
+[36m➤[39m [90m｢copy-webpack-plugin｣[39m: finishing after-emit

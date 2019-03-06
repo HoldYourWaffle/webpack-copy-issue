@@ -1,0 +1,46 @@
+[copy-webpack-plugin] starting emit
+[copy-webpack-plugin] processing from: 'src/assets' to: 'assets'
+[copy-webpack-plugin] determined 'assets' is a 'dir'
+[copy-webpack-plugin] determined 'src/assets' to be read from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets'
+[copy-webpack-plugin] processing from: 'src/static/**/*.ejs' to: 'assets'
+[copy-webpack-plugin] determined 'assets' is a 'dir'
+[copy-webpack-plugin] determined 'src/static/**/*.ejs' to be read from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\**\*.ejs'
+[copy-webpack-plugin] processing from: 'src/direct-copy.ejs' to: 'assets'
+[copy-webpack-plugin] determined 'assets' is a 'dir'
+[copy-webpack-plugin] determined 'src/direct-copy.ejs' to be read from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs'
+[copy-webpack-plugin] begin globbing 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets/**/*' with a context of 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets'
+[copy-webpack-plugin] begin globbing 'D:\VOLATILE\workspace-2\webpack-copy-issue/src/static/**/*.ejs' with a context of 'D:\VOLATILE\workspace-2\webpack-copy-issue'
+[copy-webpack-plugin] begin globbing 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs' with a context of 'D:\VOLATILE\workspace-2\webpack-copy-issue\src'
+[copy-webpack-plugin] found D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs
+[copy-webpack-plugin] determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/direct-copy.ejs' should write to 'assets/direct-copy.ejs'
+[copy-webpack-plugin] reading D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs to write to assets
+[copy-webpack-plugin] found D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs
+[copy-webpack-plugin] determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/assets/amazing-file.ejs' should write to 'assets/amazing-file.ejs'
+[copy-webpack-plugin] found D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs
+[copy-webpack-plugin] determined that 'D:/VOLATILE/workspace-2/webpack-copy-issue/src/static/glob-copy.ejs' should write to 'assets/src/static/glob-copy.ejs'
+[copy-webpack-plugin] reading D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs to write to assets
+[copy-webpack-plugin] reading D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs to write to assets
+[copy-webpack-plugin] added 80df3c16ce3a42d805cf14b612dbdcc1 to written tracking for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs'
+[copy-webpack-plugin] writing 'assets/direct-copy.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs'
+[copy-webpack-plugin] added 3dab797abf77a0a8d50ae5c9c1e3b1d1 to written tracking for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs'
+[copy-webpack-plugin] writing 'assets/amazing-file.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets\amazing-file.ejs'
+[copy-webpack-plugin] added 57ff5254d61ba7f0d9dd04ce70e5fb56 to written tracking for 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs'
+[copy-webpack-plugin] writing 'assets/src/static/glob-copy.ejs' to compilation assets from 'D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs'
+[copy-webpack-plugin] finishing emit
+[copy-webpack-plugin] starting after-emit
+[copy-webpack-plugin] adding D:\VOLATILE\workspace-2\webpack-copy-issue\src\direct-copy.ejs to change tracking
+[copy-webpack-plugin] adding D:\VOLATILE\workspace-2\webpack-copy-issue\src\static\glob-copy.ejs to change tracking
+[copy-webpack-plugin] adding D:\VOLATILE\workspace-2\webpack-copy-issue\src\assets to change tracking
+[copy-webpack-plugin] adding D:\VOLATILE\workspace-2\webpack-copy-issue\src\static to change tracking
+[copy-webpack-plugin] finishing after-emit
+Hash: b6d6ada08f9181900a75
+Version: webpack 4.29.6
+Time: 105ms
+Built at: 2019-03-06 21:03:22
+                          Asset      Size  Chunks             Chunk Names
+        assets/amazing-file.ejs  60 bytes          [emitted]  
+         assets/direct-copy.ejs  67 bytes          [emitted]  
+assets/src/static/glob-copy.ejs  63 bytes          [emitted]  
+                        main.js   3.8 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/index.js] 27 bytes {main} [built]
